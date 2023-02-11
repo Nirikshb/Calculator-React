@@ -62,10 +62,14 @@ const App = () => {
       {/* for printing erros */}
       <div className="error">{}</div>
       
-      <h2 id='anss'> {ans}</h2>
+   
+        <h2 id='anss'>Result = {ans}</h2>
+      
+      
 
       {/* for printing success */}
-     <div className="result">{}</div>    
+        
+        <p>Result is shown above</p>
   </div>  
   
   
